@@ -60,7 +60,8 @@ window.onload = function () {
 
     //cria o span de elementos filhos da div pai
     function criarElementoDeLetrasFilhas(elemento, letra) {
-        var letraUtilizada = document.createElement("span");
+        var letraUtilizada = document.createElement("div");
+        letraUtilizada.className = "teclas"
         var texto = document.createTextNode(letra + ' ');
         letraUtilizada.appendChild(texto);
         elemento.appendChild(letraUtilizada);

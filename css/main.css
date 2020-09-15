@@ -1,0 +1,103 @@
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.teclas {
+  margin: 0 5px 5px 0;
+  width: 48px;
+  height: 48px;
+  line-height: 40px;
+  text-align: center;
+  background: #bbe1fa;
+  border-radius: 8px;
+  border: 1px solid #c3f0fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_letras {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  columns: 100px;
+}
+.teclas {
+  cursor: pointer;
+}
+
+.container {
+  padding: 16px;
+  width: 60%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgba(15, 76, 117, 0.2);
+  margin: 48px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+
+.letras_div_title {
+  font-size: 22px;
+  color: white;
+}
+
+.informacacoes {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  color: white;
+}
+
+.tentativas {
+  color: white;
+}
+
+#letrasUtilizadas {
+  display: flex;
+}
+
+#sublinhado {
+  font-size: 44px;
+  color: white;
+}
+
+.teclado_div {
+  width: 80%;
+}
+
+body,
+html {
+  margin: 0px;
+  height: 100%;
+}
+
+.background {
+  /* The image used */
+  background-image: url(../assets/nunu.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}

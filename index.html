@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>FIAP - START LEVELS</title>
     <script src="js/index.js"></script>
-</head>
-<body>
-    <span>Dica: </span><span id="dica"></span>
-    <br>
-    <br>
-    <br>
-    <span>Tentativas: </span><span id="tentativas"></span>
-    <br>
-    <br>
-    <br>
-    <span>TODO: FORCA BONITINHA DO FAFA, dá pra vc fazer uma imagem que toda vez que ele erra adiciona ak o nunu</span>
-    <br>
-    <br>
-    <br>
-    <span id="sublinhado" style="letter-spacing: 10px"></span>
-    <br>
-    <br>
-    <br>
-    <span>Letras :</span>
-    <div id="teclado">
+    <link rel="stylesheet" href="./css/main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="container">
+        <div class="informacacoes">
+          <div class="dica">
+            <span>Dica: </span>
+            <span id="dica"> </span>
+          </div>
+
+          <div class="tentativas">
+            <span>Tentativas: </span>
+            <span id="tentativas"></span>
+          </div>
+        </div>
+
+        <span id="sublinhado" style="letter-spacing: 10px"></span>
+
+        <div class="teclado_div">
+          <div id="teclado" class="keyboard"></div>
+        </div>
+
+        <div class="letras_div">
+          <span class="letras_div_title">Letras utilizadas:</span>
+          <div id="letrasUtilizadas"></div>
+        </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <span>Letras utilizadas:</span>
-    <div id="letrasUtilizadas"></div>
-</body>
+  </body>
 </html>
